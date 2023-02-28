@@ -6,7 +6,7 @@ Prototype Designs for a Food Ordering Website - Midterm Resources for Students w
 
 ## Author
 Unblast  
-[Attribution Link](https://www.behance.net/gallery/103537001/Burger-App-Template-Figma)
+[Attribution Link](https://www.behance.net/gallery/103537001/Burger-App-Template-Figma)  
 Please make sure to attribute the author in your work.
 
 ## Design Overview 
