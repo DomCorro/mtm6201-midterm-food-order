@@ -1,0 +1,122 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    margin: 20px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: lighter;
+    color: gray;
+}
+
+.searchbar {
+    width: 420px;
+}
+
+.filters {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 140px 140px 140px;
+}
+
+.burgers {
+    margin-right: 1rem;
+    height: 200px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgb(225, 225, 225);
+}
+
+.burgers:hover {
+    background-color: rgb(185, 21, 21);
+    color: rgb(255, 255, 255);
+}
+
+.pizza {
+    margin-right: 10px;
+    height: 200px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgb(225, 225, 225);
+}
+
+.pizza:hover {
+    background-color: rgb(185, 21, 21);
+    color: rgb(255, 255, 255);
+}
+
+.cakes {
+    margin-right: 1rem;
+    height: 200px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgb(225, 225, 225);
+}
+
+.cakes:hover {
+    background-color: rgb(185, 21, 21);
+    color: rgb(255, 255, 255);
+}
+
+.filtericon {
+    height: auto;
+    width: 50px;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.headingarea {
+    display: flexbox;
+}
+
+.heading {
+    font-size: smaller;
+    justify-content: start;
+}
+
+.viewall {
+    color: rgb(185, 21, 21);
+    justify-content: end;
+}
+
+.cheesychicken {
+    margin-right: 1rem;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgb(196, 196, 196);
+    padding-top: 3px;
+
+}
+
+.preview {
+    height: 230px;
+    width: 380px;
+    background-color: rgb(185, 21, 21);
+    justify-content: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.cheesy {
+    height: auto;
+    width: 250px;
+}
+
+.name {
+    justify-content: start;
+}
