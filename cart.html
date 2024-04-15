@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Poppins Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <title>Cart</title>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Corporation",
+            "name": "Midterm Food Order",
+            "url": "",
+            "logo": ""
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="topbutton" id="back">
+        <a href="order.html"><i class='bx bx-chevron-left'></i></a>
+    </div>
+
+    <div class="topbutton" id="dots">
+        <i class='bx bx-dots-vertical-rounded'></i>
+    </div>
+
+    <h1 id="carttitle">Cart</h1>
+
+    <div class="cartitem" id="cheesychicken">
+
+        <img class="itemimg" src="img/cheesychicken.png" alt="Cheesy Chicken Burger">
+        <h3 class="itemname">Chipotle Che...</h3>
+        <i class='bx bx-x'></i>
+        <div class="foodquantity">
+            <p class="minus">-</p>
+            <p>2</p>
+            <p class="plus">+</p>
+        </div>
+        <div class="foodprice">
+            <p>$41.90</p>
+        </div>
+
+    </div>
+
+    <div class="cartitem" id="beefburger">
+
+        <img class="itemimg" src="img/beefburger.png" alt="Beef Burger">
+        <h3 class="itemname">Beef Burger</h3>
+        <i class='bx bx-x'></i>
+        <div class="foodquantity">
+            <p class="minus">-</p>
+            <p>1</p>
+            <p class="plus">+</p>
+        </div>
+        <div class="foodprice">
+            <p>$20.95</p>
+        </div>
+
+    </div>
+
+    <div class="coupon">
+        <p>Apply Coupons <i class='bx bx-right-arrow-alt'></i></p>
+    </div>
+
+    <div class="horizontalline"></div>
+
+    <div class="total">
+        <p class="leftsidetext">Item Total</p>
+        <p class="moneyvalue">$62.85</p>
+        <p class="leftsidetext">Delivery Charge</p>
+        <p class="moneyvalue">$2.25</p>
+        <p class="leftsidetext">Tax</p>
+        <p class="moneyvalue">$0.25</p>
+        <h2 class="leftsidetext">Total:</h2>
+        <h2 class="moneyvalue">$65.35</h2>
+    </div>
+
+    <div class="payment">
+        <p>Proceed to payment method</p>
+    </div>
+
+</body>
+
+</html>
